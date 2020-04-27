@@ -4,7 +4,7 @@ A simple script to get evolution chain for a Pokemon
 ## How to run
 *This script only works with Python >3.x*
 
-Run `python3 pokemon-evolution-chain.py
+Run `python3 pokemon-evolution-chain.py`
 
 You can use both Pokemon ID or Pokemon name
 
