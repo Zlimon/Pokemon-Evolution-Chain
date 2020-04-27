@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from urllib.request import Request, urlopen
 import json
 import re
@@ -34,8 +36,8 @@ while (evoData["evolves_to"]):
 
 	evoData = evoData["evolves_to"][0]  # Går videre til neste Pokemon i evolution chain
 
-	if not evoData["evolves_to"]: # Hvis det ikke finnes flere Pokemons i evolution chain
-		print ("ferdig")
+	# if not evoData["evolves_to"]: # Hvis det ikke finnes flere Pokemons i evolution chain
+		# print ("Finished")
 
 for pokemon in evoChain:
 	print ("#" + pokemon[0] + " - " + pokemon[1].title())
